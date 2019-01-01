@@ -1,0 +1,2 @@
+FROM node:11
+ENTRYPOINT ["npm"]
