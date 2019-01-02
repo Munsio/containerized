@@ -11,4 +11,5 @@ docker run -i -t --rm \
   -v "$PWD:$PWD" \
   -w $PWD \
   -u `id -u` \
-  yarn "$@"
+  --entrypoint "yarn" \
+  dockerized-node "$@"
