@@ -11,4 +11,4 @@ docker run -i -t --rm \
   -v "$PWD:$PWD" \
   -w $PWD \
   -u `id -u` \
-  travis "$@"
+  dockerized-travis "$@"
